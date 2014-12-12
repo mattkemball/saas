@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+background-color: #4c719e;
   
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -45,6 +45,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+.main {
+    background-color: white;
 }
 
 a:focus {
@@ -137,6 +141,7 @@ header {
     background-color: #375370;
     background-image: url(../images/billboard.jpg);
     overflow: hidden;
+    max-height: 35em;
 }
 
 h1 {
@@ -161,6 +166,7 @@ h2 {
     border: none;
     border-radius: 20px;
     margin: 0;
+
 }
 
 .comic1 {
@@ -251,7 +257,42 @@ h2 {
     margin: 2em;
 }
 
+.form {
+    margin-bottom: 1em;
+}
+
+.signupform {
+    background-color:  #4c719e;
+    border-radius: 3em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.field {
+    padding-right: 20em;
+    text-decoration
+}
+
+.send {
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 8px;
+    padding: .5em;
+    margin: 1em
+}
   
+.thanks {
+    color: black;
+    text-align: center;
+}
+
+.thankyou {
+    text-align: center;
+    font-size: 2em;
+}
 @media only screen and (min-width: 20em) {
    
     
@@ -262,12 +303,10 @@ h2 {
     .copyright {
         text-align: top;
     }
-    
-    
-    
-    
+   
+.thanks {
+    font-size: 5em;
 }
-
 @media only screen and (min-width: 38em) {
     
    
@@ -287,10 +326,12 @@ h2 {
     }
 
     .sign {
-        padding-top: 18em;
+        padding-top: 4em;
     }
     
-   
+   .thanks {
+       font-size: 10em;
+   }
     .bottombutton {
         padding: 0;
         padding-bottom: 3em;
@@ -306,11 +347,7 @@ h2 {
 @media only screen and (min-width: 60em) { 
 
 
-    .sign {
-        padding-top: 18em;
-    }
-    
-     
+
     
     
     }
