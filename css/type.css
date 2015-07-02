@@ -59,6 +59,14 @@ small, .milli {
   line-height: 1.8984;
 }
 
+figure {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 sub,
 sup {
   font-size: 75%;
