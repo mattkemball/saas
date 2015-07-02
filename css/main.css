@@ -183,7 +183,10 @@ figure {
     padding-bottom: 1em;
 }
     
-
+.pic {
+    max-width: 20em;
+    padding: 2em;
+}
 
 
 .back {
@@ -199,6 +202,10 @@ h2 {
     text-align: left;
     font-size:4em;
     color: #ffffff;
+}
+
+.background {
+    background-color: #49c1c0;
 }
 
 .sign a {
