@@ -155,14 +155,17 @@ header {
 
 h1 {
     color: #ffffff;
-    background-color: #8a181b;
+    background-color: #ed1c24;
     padding-left: .5em;
 }
 
 p {
-    background-color: rgba(138, 24, 27, 0.7);
     padding-left: .5em;
     margin-top: -1em;
+}
+
+.pback {
+    background-color: rgba(138, 24, 27, 0.7);
 }
 
 .image {
@@ -171,10 +174,13 @@ p {
 }
 
 figcaption {
-    background-color: #8a181b;
     font-size: 2em;
     color: #ffffff;
     padding-left: 1em;
+}
+
+.figback {
+     background-color: #8a181b;
 }
 
 figure {
@@ -187,6 +193,11 @@ figure {
     padding: 2em;
 }
 
+.border {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
 
 .back {
     background-color: ;
