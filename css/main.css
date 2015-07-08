@@ -151,7 +151,6 @@ header {
     overflow: hidden;
     background-size: 80rem;
     background-repeat: no-repeat;
-    max-height: 30rem;
 }
 
 h1 {
@@ -287,6 +286,10 @@ p {
     font-size: 1em;
     margin-top: -25px;
 }
+
+.billboard {
+    max-height: 10rem;
+}
 }
 
 
@@ -331,7 +334,11 @@ h1 {
 
 p {
     font-size: 1.5em;
-    margin-top: -26px;
+    margin-top: -28px;
+}
+
+.billboard {
+    max-height: 20rem;
 }
 }
 
@@ -341,8 +348,7 @@ p {
 
 
     
-    
-    }
+   
     .bottombutton {
         padding: 0;
         padding-bottom: 3em;
@@ -351,4 +357,9 @@ p {
 
 .icons {
     max-width: 25em;
+}
+
+.billboard {
+    max-height: 30em;
+}
 }
